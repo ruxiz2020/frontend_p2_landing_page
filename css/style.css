@@ -25,6 +25,7 @@ img {
 a, a:hover, a:active {
     outline: 0px !important;
 	text-decoration:none;
+  /*background-color: yellow;*/
 }
 .clear {
     clear: both;
