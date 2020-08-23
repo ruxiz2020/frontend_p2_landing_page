@@ -1,7 +1,7 @@
 /*
 Author URI: http://webthemez.com/
-Note: 
-Licence under Creative Commons Attribution 3.0 
+Note:
+Licence under Creative Commons Attribution 3.0
 -------------------------------------------------------*/
 
 @charset "utf-8";
@@ -72,8 +72,8 @@ a, a:hover, a:active {
 }
 
 .grid figure figcaption {
-	padding: 2em;
-	color: #fff;
+	padding: 1em;
+	color: inherit;
 	text-transform: uppercase;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
@@ -140,7 +140,7 @@ figure.effect-oscar img {
 
 figure.effect-oscar figcaption {
 	padding: 3em;
-	background-color: rgba(102, 14, 90, 0.55);
+	/*background-color: rgba(102, 14, 90, 0.55);*/
 	-webkit-transition: background-color 0.35s;
 	transition: background-color 0.35s;
 }
@@ -161,7 +161,7 @@ figure.effect-oscar h2 {
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
-	color:#A3A3A3;
+	color:#F0F0F0;
 }
 
 figure.effect-oscar figcaption::before,
@@ -242,9 +242,9 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-    background: #AD0C98;
+    background: #300000;
     padding: 20px 0px;
-	
+
     border-top: 4px solid #FFFFFF;
 	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
 }
@@ -281,7 +281,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #D098BC;
+    color: #FFCCCC;
 }
 
 .navStyle {
@@ -366,9 +366,9 @@ display:none;
 
 .top_cont_outer {
     background: #ED5441;
-    position: relative; 
+    position: relative;
     background: url('../img/main2.jpg') no-repeat;
-	background-size: cover; 
+	background-size: cover;
 }
 
 .hero_section {
@@ -396,7 +396,7 @@ height: 750px;
 
 .top_left_cont h3 {
     font-size: 25px;
-    color: #FF4F9F;
+    color: #282828;
     margin: 0 0 20px 0;
     text-align: left;
     font-weight: 700;
@@ -407,13 +407,14 @@ height: 750px;
     /* float: none; */
     /* clear: both; */
     padding: 15px;
-    border-left: 2px solid #FF4F9F;
-    border-right: 2px solid #FF4F9F;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
 }
 
 .top_left_cont h2 {
-    font-size: 40px;
-    color: #AD0C98;
+    font-size: 80px;
+    front-weight: bold;
+    color: #FFFFFF;
     line-height: 60px;
     margin: 0 0 26px 0;
     font-family: 'Raleway', sans-serif;
@@ -421,9 +422,9 @@ height: 750px;
 }
 
 .top_left_cont h2 strong {
-    font-weight: 700;
-	
-    color: #FF6E84;
+    font-weight: 500;
+    font-size: 50px;
+    color: #E0E0E0;
 }
 
 .top_left_cont p {
@@ -473,7 +474,7 @@ a.read_more:hover {
     border: 1px solid #ED5441;
 }
 
-	
+
 
 
 
@@ -486,10 +487,14 @@ a.read_more:hover {
 
 #service {
     padding: 60px 0px;
-    background: #AD0C98;
+    background: #F0F8FF;
 }
 #service h2{
-  color: #fff;
+  color: #999900;
+
+}
+#service h6{
+  color: black;
 
 }
 .service_wrapper {
@@ -500,31 +505,32 @@ a.read_more:hover {
 }
 
 .service_block {
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px; 
+  /*background-color: #003366;*/
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 15px;
 	position: relative;
 }
 
-.service_icon {  
-    width: 90px;
-    height: 85px;
-    margin: 0px auto 25px; 
+.service_icon {
+    width: 50px;
+    height: 45px;
+    margin: 0px auto 25px;
 }
 
- 
+
 
 .service_icon span {
-    background: rgb(255, 255, 255); 
+    background: inherit;
     display: block;
     height: 100%;
     width: 100%;
-	
+
     border-radius: 10% 50% 10%;
 }
 
 .service_icon i {
-  color: #F04761;
+  color: black;
 font-size: 40px;
 margin-top: 0;
 position: relative;
@@ -536,20 +542,22 @@ text-align: center;
 
 .service_block h3 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    color: #fff;
-margin: 35px 0 15px; 
+    font-weight: 500;
+    font-size: 23px;
+    color: #808000;
+    margin: 35px 0 15px;
 }
-#service h6{
-color:#fff;
+#service h5{
+color:black;
+font-size: 17px;
 }
 .service_block p {
+
     font-size: 16px;
-    color: #FFC4CD;
-    margin: 0 0 35px 0; 
+    color: black;
+    margin: 0 0 35px 0;
 }
-	
+
 .mrgTop30{
 margin-top:60px;
 }
@@ -705,7 +713,7 @@ a.contact_btn:hover {
 }
 
 .Portfolio-box img:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .Portfolio-nav li a.current {
@@ -831,7 +839,7 @@ img {
 
 /* About Us
 --------------------------- */
- 
+
 .aboutUs-container {
 background-repeat: no-repeat;
 background-position: right;
@@ -863,7 +871,7 @@ color: #6C6C6C;
 .about-us h3{
 	font-size:28px;
 }
-.points{ 
+.points{
 	margin-bottom: 10px;
 	font-size:14px;
 	padding-left:0px;
@@ -890,7 +898,7 @@ color: #6C6C6C;
 	position: absolute;
 	font-family: FontAwesome;
 	font-size: 1.125em;
-	color: #F04861;
+	color: #606060;
 	left: 0px;
 	top: 3px;
 }
@@ -909,7 +917,7 @@ color: #6C6C6C;
 
 .team_area {
     width: 30.66%;
-    margin-right: 3.82979%; 
+    margin-right: 3.82979%;
     overflow: hidden;
     text-align: center;
     float: left;
@@ -946,7 +954,7 @@ color: #6C6C6C;
 .team_box_shadow a {
     display: block;
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
 .team_box:hover .team_box_shadow {
@@ -985,14 +993,14 @@ color: #6C6C6C;
 .team_box ul li {
     display: inline-block;
     margin: 0 11px;
-	width: 34px; 
+	width: 34px;
 border-radius: 50%;
 background: #fff;
 padding: 10px 0 4px;
 margin-bottom: 5px;
 }
 
-.team_box ul li a { 
+.team_box ul li a {
     display: inline-block;
     font-size: 18px;
     color: #232323;
@@ -1051,7 +1059,7 @@ transition: all .3s;
 .page_section.contact {
     padding: 90px 0 100px;
 }
- 
+
 .contact_section {
     margin: 0 0 60px 0;
 }
@@ -1194,7 +1202,7 @@ transition: all .3s;
 .gplus a:hover {
     color: #dd4b39;
 }
- 
+
 
 .form {
     margin: 0 66px 0 30px;
@@ -1227,14 +1235,14 @@ transition: all .3s;
     height: 230px;
     resize: none;
     overflow: auto;
-    
+
 }
 
-.input-btn {    
+.input-btn {
     width: 175px;
     height: 50px;
     letter-spacing: 0px;
-    background: #AD0C98;
+    background: #6666CC;
     border-radius: 3px;
     color: #ffffff;
     font-size: 16px;
@@ -1255,7 +1263,7 @@ transition: all .3s;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #3D0636;
+    background: #000000;
 }
 
 .footer_bottom {
@@ -1272,7 +1280,7 @@ transition: all .3s;
 
 .footer_bottom span a {
     display: inline-block;
-    color: #AD0C98;
+    color: #CC6699;
     font-size: 16px;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1340,9 +1348,9 @@ transition: all .3s;
 
 
 
-	
-/* Portfolio */	
-	
+
+/* Portfolio */
+
 .container.portfolio_title {
     padding-bottom: 0px;
 }
@@ -1353,7 +1361,7 @@ transition: all .3s;
 
 
 
-/* Portfolio Filters */	
+/* Portfolio Filters */
 
 #filters {
     margin-top: 10px;
@@ -1378,7 +1386,7 @@ transition: all .3s;
     background: none repeat scroll 0 0 #f7f7f7;
     border-radius: 4px;
     display: inline-block;
-    
+
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 5px;
@@ -1391,10 +1399,10 @@ transition: all .3s;
 }
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-    background: #AD0C98;
+    background: #666699;
     color: #FFFFFF;
     text-decoration: none;
-    border: #AD0C98 solid 1px;
+    border: #666699 solid 1px;
 }
 
 .section-title h2 {
@@ -1419,7 +1427,7 @@ transition: all .3s;
 
 
 
-/* Portfolio Items */	
+/* Portfolio Items */
 
 #portfolio_wrapper {
     position: relative;
@@ -1501,7 +1509,7 @@ transition: all .3s;
     color: #fff;
     text-transform: uppercase;
     margin-top: 25px;
-    
+
     opacity: 0;
     font-size: 18px;
     transition: all 0.2s ease 0s;
@@ -1569,11 +1577,11 @@ transition: all .3s;
     -o-transition: opacity .3s .2s, margin-top .3s .2s;
     transition: opacity .3s .2s, margin-top .3s .2s;
 }
-	
-	
-	
-	
-/* Portfolio Isotope Transitions */	
+
+
+
+
+/* Portfolio Isotope Transitions */
 
 .isotope, .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
@@ -1609,7 +1617,7 @@ transition: all .3s;
 
 
 
-/* Portfolio Expander */	
+/* Portfolio Expander */
 
 
 
@@ -1682,10 +1690,10 @@ transition: all .3s;
     padding-bottom: 40px;
 }
 
-	
-/* Portfolio*/	
-	
-	
+
+/* Portfolio*/
+
+
 .project-image-slider .bx-wrapper .bx-next {
     background: url("images/project_slider_right.png") no-repeat;
     background-size: 35px 65px;
@@ -1715,9 +1723,9 @@ transition: all .3s;
     width: 35px;
     z-index: 100;
 }
-	
-/* Portfolio Normal Expander */		
-	
+
+/* Portfolio Normal Expander */
+
 .project-description {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -1745,11 +1753,11 @@ transition: all .3s;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-	
-	
-	
-/* Portfolio FullScreen Expander */			
-	
+
+
+
+/* Portfolio FullScreen Expander */
+
 #cycle-loader {
     height: 32px;
     left: 50%;
@@ -1905,7 +1913,7 @@ background-position-y: 150px;
 @media (max-width: 768px) {
 .navStyle {
 float: right;
-width: auto; 
+width: auto;
 text-align: center;
 }
 .aboutUs-container{
@@ -1914,7 +1922,7 @@ text-align: center;
 p{
 font-size:14px;
 }
-.top_cont_outer { 
+.top_cont_outer {
 height: 335px;
 }
 .hero_section {
@@ -1925,8 +1933,9 @@ padding-top: 10px;
 padding: 38px 0;
 }
 .top_left_cont h2 {
-font-size: 25px;
-color: #AD0C98;
+font-size: 45px;
+font-weight: bold;
+color: #6699FF;
 line-height: 39px;
 margin: 0 0 9px 0;
 }
@@ -1940,11 +1949,11 @@ margin-bottom:20px;
 font-size:26px;
 line-height:22px;
 }
-.service_block h3 { 
+.service_block h3 {
 font-size: 16px;
 }
 service_block p {
-font-size: 14px; 
+font-size: 14px;
 margin: 0px;
 margin-bottom: 20px;
 }
@@ -1968,7 +1977,7 @@ padding: 11px 0;
 display: inline-block;
 }
 .social_links li {
-float: left; 
+float: left;
 }
 .contact_section{
 margin:0;
@@ -1978,7 +1987,7 @@ font-size: 30px;
 }
 .page_section.contact {
 padding: 60px 0 50px;
-} 
+}
 .navbar-inverse .navbar-toggle .icon-bar{
 background:#ED5441;
 }
@@ -2012,15 +2021,15 @@ margin: 0px;
 margin: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
-color: #F5BFEE; 
+color: #F5BFEE;
 font-size:12px;
 padding: 10px 11px;
 }
-} 
-@media (max-width: 480px){ 
+}
+@media (max-width: 480px){
 .navStyle {
 float: left;
-width: 100%; 
+width: 100%;
 text-align: left;
 }
 .navbar {
