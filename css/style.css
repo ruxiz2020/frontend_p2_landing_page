@@ -1455,7 +1455,8 @@ transition: all .3s;
     line-height: 0;
     width: 25%;
     padding: 0;
-    position: relative;
+    float: left;
+    /*position: relative;*/
 }
 
 .portfolio-item {
@@ -2090,4 +2091,17 @@ display:none;
 
 #backtotop_button:hover {
   background-color: #555;
+}
+
+.portfolio-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.portfolio-row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
