@@ -18,6 +18,8 @@
 <![endif]-->
 
   <script type="text/javascript" src="js/custom.js"></script>
+
+
 </head>
 
 <body>
@@ -47,7 +49,7 @@
   <!--Hero_Section-->
 
   <!--Header_section-->
-  <header id="header_wrapper">
+  <header id="header_wrapper" class="navbar-fixed-top">
     <div class="container">
       <div class="header_box">
         <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
@@ -60,12 +62,8 @@
           </div>
           <div id="main-nav" class="collapse navbar-collapse navStyle">
             <ul class="nav navbar-nav" id="mainNav">
-              <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
-              <li><a href="#aboutUs" class="scroll-link">Cast</a></li>
-              <li><a href="#service" class="scroll-link">Plot & History</a></li>
-              <li><a href="#Portfolio" class="scroll-link">Photos</a></li>
-              <li><a href="#team" class="scroll-link">Team</a></li>
-              <li><a href="#contact" class="scroll-link">Comment</a></li>
+              <!--<li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>-->
+              <!--Navigation is built dynamically as an unordered list by js function generate_navBar-->
             </ul>
           </div>
         </nav>
@@ -73,6 +71,8 @@
     </div>
   </header>
   <!--Header_section-->
+
+<div class="main">
 
   <section id="aboutUs">
     <!--Aboutus-->
@@ -240,69 +240,45 @@
     <!-- Portfolio Filters -->
     <div class="portfolio">
 
-      <div id="filters" class="sixteen columns" style="display:none">
-        <ul class="clearfix">
-          <li><a id="all" href="#" data-filter="*" class="active">
-              <h5>All</h5>
-            </a></li>
-          <li><a class="" href="#" data-filter=".prototype">
-              <h5>Prototype</h5>
-            </a></li>
-          <li><a class="" href="#" data-filter=".design">
-              <h5>Design</h5>
-            </a></li>
-          <li><a class="" href="#" data-filter=".android">
-              <h5>Android</h5>
-            </a></li>
-          <li><a class="" href="#" data-filter=".appleIOS">
-              <h5>Apple IOS</h5>
-            </a></li>
-          <li><a class="" href="#" data-filter=".web">
-              <h5>Web App</h5>
-            </a></li>
-        </ul>
-      </div>
-      <!--/Portfolio Filters -->
-
       <!-- Portfolio Wrapper -->
 
       <div class="portfolio-row">
         <div class="portfolio-column">
           <a href="img/portfolio_pic1.jpg" target="_blank">
-          <img src="img/portfolio_pic1.jpg" alt="Snow" style="width:100%">
+            <img src="img/portfolio_pic1.jpg" alt="Snow" style="width:100%">
           </a>
         </div>
         <div class="portfolio-column">
           <a href="img/portfolio_pic2.jpg" target="_blank">
-          <img src="img/portfolio_pic2.jpg" alt="Forest" style="width:100%">
+            <img src="img/portfolio_pic2.jpg" alt="Forest" style="width:100%">
           </a>
         </div>
         <div class="portfolio-column">
           <a href="img/portfolio_pic3.jpg" target="_blank">
-          <img src="img/portfolio_pic3.jpg" alt="Mountains" style="width:100%">
+            <img src="img/portfolio_pic3.jpg" alt="Mountains" style="width:100%">
           </a>
         </div>
       </div>
 
       <div class="portfolio-row">
-        <div class="portfolio-column" >
+        <div class="portfolio-column">
           <a href="img/portfolio_pic4.jpg" target="_blank">
-          <img src="img/portfolio_pic4.jpg" alt="Snow" style="width:100%">
+            <img src="img/portfolio_pic4.jpg" alt="Snow" style="width:100%">
           </a>
         </div>
         <div class="portfolio-column">
           <a href="img/portfolio_pic5.jpg" target="_blank">
-          <img src="img/portfolio_pic5.jpg" alt="Forest" style="width:100%">
+            <img src="img/portfolio_pic5.jpg" alt="Forest" style="width:100%">
           </a>
         </div>
         <div class="portfolio-column">
           <a href="img/portfolio_pic6.jpg" target="_blank">
-          <img src="img/portfolio_pic6.jpg" alt="Mountains" style="width:100%">
+            <img src="img/portfolio_pic6.jpg" alt="Mountains" style="width:100%">
           </a>
         </div>
       </div>
 
-        <!--/Portfolio Item -->
+      <!--/Portfolio Item -->
     </div>
     <!--/Portfolio Filters -->
 
@@ -403,6 +379,8 @@
       <div class="footer_bottom"><span>Copyright 2020, Coded by <a href="https://ruxiz2020.github.io/frontend_proj2_landing/">Bookworm</a>. </span> </div>
     </div>
   </footer>
+
+</div> <!--/End of main class-->
 
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 

@@ -239,15 +239,26 @@ p {
     margin: 0;
 }
 
+
+.main {
+  padding-top: 10px;
+  margin-top: 10px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
 /* Header Styles
 ---------------------------------*/
 
 #header_wrapper {
     background: #300000;
     padding: 20px 0px;
-
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     border-top: 4px solid #FFFFFF;
-	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
+	  box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
 }
 
 .header_box {
@@ -267,6 +278,7 @@ p {
 	div#main-nav {
   float: left;
 }
+
 
 /* Nav Styles
 ---------------------------------*/
