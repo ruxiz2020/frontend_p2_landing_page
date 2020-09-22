@@ -21,7 +21,7 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 40) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -37,7 +37,7 @@ function topFunction() {
 
 // detect which part of page the user is currently in and then add
 // active class dynamically to that navigation item
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('scroll', () => {
 
 	const observer = new IntersectionObserver(entries => {
 		entries.forEach(entry => {
@@ -59,9 +59,6 @@ window.addEventListener('DOMContentLoaded', () => {
 	});
 
 });
-
-
-
 
 
 // Navigation is built dynamically as an unordered list.
@@ -97,3 +94,14 @@ function generate_navBar() {
 window.onload = function() {
   generate_navBar();
 };
+
+// Scroll to anchor ID using scrollTO event
+document.querySelectorAll('nav li a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
